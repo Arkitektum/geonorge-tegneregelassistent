@@ -1,0 +1,78 @@
+{
+    "schemas": [
+        {
+            "documentreference": "http://skjema.geonorge.no/SOSITEST/produktspesifikasjon/Reguleringsplanforslag/5.0/reguleringsplanforslag-5.0_rev20211104.xsd",
+            "label": "Reguleringsplanforslag",
+            "DatasetUuid": "1bef5134-0439-4fae-a7c1-1d024e7e667b"
+        },
+        {
+            "documentreference": "https://skjema.geonorge.no/SOSI/produktspesifikasjon/Reguleringsplanforslag/20230701/reguleringsplanforslag.xsd",
+            "label": "Reguleringsplanforslag",
+            "DatasetUuid": "1bef5134-0439-4fae-a7c1-1d024e7e667b"
+        },
+        {
+            "documentreference":"http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Ar5/5.0/FKBAR5.xsd",
+            "label": "FKB-AR5",
+            "DatasetUuid": null
+        },
+        {
+            "documentreference":"http://skjema.geonorge.no/SOSI/produktspesifikasjon/Akvakulturlokaliteter/20210501/akvakulturlokaliteter.xsd",
+            "label": "Akvakultur - lokaliteter",
+            "DatasetUuid": null
+        },
+        {
+            "documentreference":"http://skjema.geonorge.no/SOSI/produktspesifikasjon/BunnsedimenterKornstorrelse/1.1/BunnsedimenterKornstorrelse.xsd",
+            "label": "Bunnsedimenter - kornstørrelse",
+            "DatasetUuid": null
+        }
+    ],
+    "schemaOverrides": [
+        {
+            "sourceLabel": "Administrative enheter",
+            "targetLabel": "Administrative enheter kommuner",
+            "exactMatch": false
+        }
+    ],
+   "schemaNodeOverrides": {
+        "Administrative enheter kommuner": [
+            {
+                "sourceNode": "Grense",
+                "styleName": "Administrative enheter - Kommunegrense",
+                "exactMatch": true
+            },
+            {
+                "sourceNode": "Kommune",
+                "styleName": "Administrative enheter kommuner",
+                "exactMatch": true
+            }
+        ],
+        "Sjøkart - Maritim infrastruktur": [
+            {
+                "sourceNode": "HavbrukForankret",
+                "styleName": "Havbruk - forankret / Akvakultur",
+                "exactMatch": true
+            }
+        ],
+        "FKB-AR5": [
+            {
+                "sourceNode": "ArealressursFlate",
+                "styleName": "FKB-AR5 - Arealtype",
+                "exactMatch": true
+            }
+        ],
+        "Akvakultur - lokaliteter": [
+            {
+                "sourceNode": "Akvakultur",
+                "styleName": "Akvakulturlokaliteter",
+                "exactMatch": false
+            }
+        ],
+        "OtherSchema": [
+            {
+                "sourceNode": "GML node",
+                "styleName": "styleName",
+                "exactMatch": true
+            }
+        ]
+    }
+}

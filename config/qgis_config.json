@@ -1,0 +1,17 @@
+{
+    "report": {
+        "save_report": true,
+        "report_base_path": null
+    },
+    "logging": {
+        "enabled": true,
+        "file_path": null,
+        "level": "DEBUG",
+        "format": null,
+        "filemode": "w"
+    },
+    "endpoint_url": {
+        "cartography": "https://register.geonorge.no/kartografi/api/cartography?",
+        "schema": "https://register.geonorge.no/api/gml-applikasjonsskjema.json"
+    }
+}
