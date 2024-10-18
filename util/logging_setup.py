@@ -50,7 +50,7 @@ def setup_logging():
 
         logger.info("Logging is enabled.")
         print('Logging is enabled, logfile path: {}'
-              .format(log_file_path.replace('\\', '/')))
+              .format(log_file_path))
     else:
         logger.addHandler(logging.NullHandler())
         print("Logging is disabled.")
