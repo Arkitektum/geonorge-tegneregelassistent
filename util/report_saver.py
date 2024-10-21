@@ -54,6 +54,6 @@ class ReportSaver:
         report_content.to_csv(file_path, index=False, sep=';',
                               encoding='utf-16')
 
-        print(f"Report saved to: {file_path.replace('\\', '/')}")
+        print(f"Report saved to: {file_path}")
 
         return
