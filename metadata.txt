@@ -7,12 +7,12 @@ author=Arkitektum AS
 email=apps@arkitektum.no
 about=Denne pluginen kobler til Geonorge API for å hente og tildele stiler til lag i QGIS ved hjelp av tegneregler basert på norske standarder.
 category=Vector
+homepage=https://github.com/arkitektum/geonorge-tegneregelassistent
 tracker=https://github.com/arkitektum/geonorge-tegneregelassistent/issues
 repository=https://github.com/arkitektum/geonorge-tegneregelassistent
-tags=geonorge, styles, layers, qgis, tegneregler, arkitektum, gml
+tags=geonorge, styles, layers, tegneregler, kartografi, arkitektum, gml, norway
 
 [help]
-changelog=CHANGELOG.md
 readme=README.md
 
 [author]
@@ -22,10 +22,10 @@ institution=Arkitektum AS
 web=www.arkitektum.no
 
 [icon]
-icon= resources/icon.png
+icon= icon.png
 
 [experimental]
-experimental=true
+experimental=False
 
 [deprecated]
 deprecated=False
