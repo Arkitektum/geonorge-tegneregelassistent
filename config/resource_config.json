@@ -24,6 +24,11 @@
             "documentreference":"http://skjema.geonorge.no/SOSI/produktspesifikasjon/BunnsedimenterKornstorrelse/1.1/BunnsedimenterKornstorrelse.xsd",
             "label": "Bunnsedimenter - kornstørrelse",
             "DatasetUuid": null
+        },
+        {
+            "documentreference":"https://skjema.geonorge.no/SOSI/produktspesifikasjon/MaritimInfrastruktur/20201020/MaritimInfrastruktur.xsd",
+            "label": "Sjøkart - Maritim infrastruktur",
+            "DatasetUuid": null
         }
     ],
     "schemaOverrides": [
