@@ -2,7 +2,7 @@
 name=geonorge-tegneregelassistent
 qgisMinimumVersion=3.34
 description=En plugin for å implementere stiler/tegneregler basert på norske standarder som finnes i Geonorge
-version=1.0.1
+version=1.0.2
 author=Arkitektum AS
 email=apps@arkitektum.no
 about=Denne pluginen kobler til Geonorge API for å hente og tildele stiler til lag i QGIS ved hjelp av tegneregler basert på norske standarder.
