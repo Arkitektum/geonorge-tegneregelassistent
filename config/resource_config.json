@@ -29,6 +29,11 @@
             "documentreference":"https://skjema.geonorge.no/SOSI/produktspesifikasjon/MaritimInfrastruktur/20201020/MaritimInfrastruktur.xsd",
             "label": "Sjøkart - Maritim infrastruktur",
             "DatasetUuid": null
+        },
+        {
+            "documentreference":"http://skjema.geonorge.no/SOSI/produktspesifikasjon/Skredfare/1.2/Skredfare.xsd",
+            "label": "Skredfaresoner",
+            "DatasetUuid": null
         }
     ],
     "schemaOverrides": [
