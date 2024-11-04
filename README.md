@@ -54,6 +54,10 @@ Inneholder QGIS-spesifikke innstillinger som logging og rapportlagring.
 }
 ```
 
+### resource_config.json
+
+For mer informasjon, se [dokumentasjon for resource_config](./resource_config_documentation.md).
+
 ## Logging
 Logging kan aktiveres ved å sette "enabled" til `true` i qgis_config.json. Loggnivået kan justeres ved å endre "level"-verdien til ønsket nivå, for eksempel INFO, DEBUG, eller ERROR. Hvis "file_path" er satt til null, vil loggfilen automatisk bli opprettet i rotkatalogen under log-mappen.
 
